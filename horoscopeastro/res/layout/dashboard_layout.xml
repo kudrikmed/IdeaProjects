@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+             >
+    
+           <!-- Здесь указываем путь к нашему классу выше -->
+    <com.horo.horoscopeastro.DashboardLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <Button android:id="@+id/aries"
+            style="@style/DashboardButton"
+            android:text="@string/aries"
+            android:drawableTop="@drawable/aries" />
+        <Button android:id="@+id/taurus"
+            style="@style/DashboardButton"
+            android:text="@string/taurus"
+            android:drawableTop="@drawable/taurus" />
+        <Button android:id="@+id/gemini"
+            style="@style/DashboardButton"
+            android:text="@string/gemini"
+            android:drawableTop="@drawable/gemini" />
+        <Button android:id="@+id/cancer"
+            style="@style/DashboardButton"
+            android:text="@string/cancer"
+            android:drawableTop="@drawable/cancer" />
+        <Button android:id="@+id/leo"
+            style="@style/DashboardButton"
+            android:text="@string/leo"
+            android:drawableTop="@drawable/leo" />
+        <Button android:id="@+id/virgo"
+            style="@style/DashboardButton"
+            android:text="@string/virgo"
+            android:drawableTop="@drawable/virgo" />
+
+        <Button android:id="@+id/libra"
+                style="@style/DashboardButton"
+                android:text="@string/libra"
+                android:drawableTop="@drawable/libra" />
+        <Button android:id="@+id/scorpius"
+                style="@style/DashboardButton"
+                android:text="@string/scorpio"
+                android:drawableTop="@drawable/scorpio" />
+        <Button android:id="@+id/sagittarius"
+                style="@style/DashboardButton"
+                android:text="@string/sagittarius"
+                android:drawableTop="@drawable/sagittarius" />
+        <Button android:id="@+id/capricorn"
+                style="@style/DashboardButton"
+                android:text="@string/capricorn"
+                android:drawableTop="@drawable/capricorn" />
+        <Button android:id="@+id/aquarius"
+                style="@style/DashboardButton"
+                android:text="@string/aquarius"
+                android:drawableTop="@drawable/aquarius" />
+        <Button android:id="@+id/pisces"
+                style="@style/DashboardButton"
+                android:text="@string/pisces"
+                android:drawableTop="@drawable/pisces" />
+    </com.horo.horoscopeastro.DashboardLayout>
+
+</LinearLayout>

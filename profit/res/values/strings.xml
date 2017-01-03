@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">profit</string>
+    <string name="workouttime">profit</string>
+    <string name="btn_pullup">Pull-ups</string>
+    <string name="btn_pushup">Push-ups</string>
+    <string name="btn_situp">Sit-ups</string>
+    <string name="btn_squats">Squats</string>
+    <string name="week">Week</string>
+    <string name="day">Day</string>
+    <string name="workout">workout</string>
+    <string name="statistics">statistics</string>
+    <string name="time">approximate time </string>
+    <string name="total">total number</string>
+    <string name="calburn">calories burned</string>
+    <string name="chart">chart</string>
+    <string name="numberofex">Number of exercises</string>
+    <string name="date">Date</string>
+    <string name="settings">settings</string>
+
+    <string name="work1">Week 1, Day 1</string>
+    <string name="work2">Week 1, Day 2</string>
+    <string name="work3">Week 1, Day 3</string>
+    <string name="work4">Week 2, Day 1</string>
+    <string name="work5">Week 2, Day 2</string>
+    <string name="work6">Week 2, Day 3</string>
+    <string name="work7">Week 3, Day 1</string>
+    <string name="work8">Week 3, Day 2</string>
+    <string name="work9">Week 3, Day 3</string>
+    <string name="work10">Week 4, Day 1</string>
+    <string name="work11">Week 4, Day 2</string>
+    <string name="work12">Week 4, Day 3</string>
+    <string name="work13">Week 5, Day 1</string>
+    <string name="work14">Week 5, Day 2</string>
+    <string name="work15">Week 5, Day 3</string>
+    <string name="work16">Week 6, Day 1</string>
+    <string name="work17">Week 6, Day 2</string>
+    <string name="work18">Week 6, Day 3</string>
+
+</resources>

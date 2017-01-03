@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.smartmedsoftdevelopment.profit"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+            android:name="com.smartmedsoftdevelopment.profit.permission.C2D_MESSAGE"
+            android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.pregnancy.dashboardproject.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-sdk android:minSdkVersion="11"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="7327000" />
+
+        <receiver
+                android:name="com.smartmedsoftdevelopment.profit.AlarmReceiver"
+                android:process=":remote" />
+        <service android:name=".GcmIntentService" />
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+                   android:value="24906811936" />
+
+        <activity android:name="MyActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DashboardActivity"/>
+        <activity android:name=".DashboardLayout"/>
+        <activity android:name=".SitWorkout"/>
+        <activity android:name=".TabSitActivity"/>
+        <activity android:name=".PushupStatistics"/>
+        <activity android:name=".ChartPushActivity"/>
+        <activity android:name=".PushWorkout"/>
+        <activity android:name=".SitupStatistics"/>
+        <activity android:name=".ChartSitActivity"/>
+        <activity android:name=".TabPushActivity"/>
+        <activity android:name=".TabPullActivity"/>
+        <activity android:name=".PullWorkout"/>
+        <activity android:name=".PullupStatistics"/>
+        <activity android:name=".ChartPullActivity"/>
+        <activity android:name=".TabSquatActivity"/>
+        <activity android:name=".SquatWorkout"/>
+        <activity android:name=".SquatStatistics"/>
+        <activity android:name=".ChartSquatActivity"/>
+        <activity android:name=".DateSelectorPull"/>
+        <activity android:name=".DateSelectorPush"/>
+    </application>
+</manifest>

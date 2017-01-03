@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <proGuardCfgFiles>
+          <file>file://C:/Program Files/Java/jdk1.8.0_05/tools/proguard/proguard-android.txt</file>
+        </proGuardCfgFiles>
+        <option name="UPDATE_PROPERTY_FILES" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="google-play-services" level="project" />
+    <orderEntry type="library" name="FlurryAnalytics-5.5.0" level="project" />
+    <orderEntry type="library" name="StartADLib-1.0.1" level="project" />
+    <orderEntry type="library" name="tappx-sdk-android-v2.2.09" level="project" />
+    <orderEntry type="library" name="applovin-6.2.2" level="project" />
+    <orderEntry type="library" name="appodeal-1.14.15" level="project" />
+    <orderEntry type="library" name="chartboost-6.4.1" level="project" />
+    <orderEntry type="library" name="inmobi-5.3.1" level="project" />
+    <orderEntry type="library" name="my-target-4.5.1" level="project" />
+    <orderEntry type="library" name="unity-ads-1.4.7" level="project" />
+    <orderEntry type="library" name="yandex-metrica-2.41" level="project" />
+    <orderEntry type="library" name="android-support-v4" level="project" />
+  </component>
+</module>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+
+              android:background="@color/black">
+
+    <!-- Здесь указываем путь к нашему классу выше -->
+    <com.smartmedsoftdevelopment.profit.DashboardLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button android:id="@+id/home_btn_new_message"
+                style="@style/DashboardButton"
+                android:text="@string/btn_pullup"
+                android:drawableTop="@drawable/pullup" />
+        <Button android:id="@+id/home_btn_messages"
+                style="@style/DashboardButton"
+                android:text="@string/btn_pushup"
+                android:drawableTop="@drawable/pushup" />
+        <Button android:id="@+id/home_btn_preferences"
+                style="@style/DashboardButton"
+                android:text="@string/btn_situp"
+                android:drawableTop="@drawable/situp" />
+        <Button android:id="@+id/home_btn_music"
+                style="@style/DashboardButton"
+                android:text="@string/btn_squats"
+                android:drawableTop="@drawable/squats" />
+
+    </com.smartmedsoftdevelopment.profit.DashboardLayout>
+
+</LinearLayout>

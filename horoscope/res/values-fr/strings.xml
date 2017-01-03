@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Horoscope</string>
+    <string name="language">fre</string>
+    <string name="today">aujourd\'hui</string>
+    <string name="tomorrow">demain</string>
+    <string name="server_ip_today">http://pregnant.by/horo/horotoday.php</string>
+    <string name="server_ip_tomorrow">http://pregnant.by/horo/horotomorrow.php</string>
+    <string name="aries">aries</string>
+    <string name="taurus">taurus</string>
+    <string name="gemini">gemini</string>
+    <string name="cancer">cancer</string>
+    <string name="leo">leo</string>
+    <string name="virgo">virgo</string>
+    <string name="libra">libra</string>
+    <string name="scorpio">scorpius</string>
+    <string name="sagittarius">sagittarius</string>
+    <string name="capricorn">capricorn</string>
+    <string name="aquarius">aquarius</string>
+    <string name="pisces">pisces</string>
+    <string name="choosesign">Signe du Zodiac</string>
+    <string name="settings">Paramètres</string>
+    <string name="langtext">langue</string>
+    <string name="signtext">Signe du Zodiac</string>
+    <string name="spanish">espagnol</string>
+    <string name="french">français</string>
+    <string name="russian">russe</string>
+    <string name="english">anglais</string>
+    <string name="deutsch">allemand</string>
+    <string name="chinese">chinois</string>
+    <string name="japanese">japonais</string>
+    <string name="chooselanguage">choisissez une langue</string>
+    <string name="fortune">Fortune</string>
+    <string name="health">Santé</string>
+    <string name="love">Amour</string>
+    <string name="career">Carrière</string>
+    <string name="server_ip_numbers">http://pregnant.by/horo/numbers.php</string>
+    <string name="diagram">Numéros</string>
+    <string name="family">Famille</string>
+    <string name="friends">Amis</string>
+    <string name="isready">est prêt</string>
+</resources>

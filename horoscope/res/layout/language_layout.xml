@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+        >
+
+    <!-- Здесь указываем путь к нашему классу выше -->
+    <com.aide.horoscope.DashboardLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button android:id="@+id/english"
+                style="@style/DashboardButton"
+                android:text="@string/english"
+                android:drawableTop="@drawable/ukflag" />
+        <Button android:id="@+id/american"
+                style="@style/DashboardButton"
+                android:text="@string/english"
+                android:drawableTop="@drawable/usaflag" />
+        <Button android:id="@+id/russian"
+                style="@style/DashboardButton"
+                android:text="@string/russian"
+                android:drawableTop="@drawable/rusflag" />
+        <Button android:id="@+id/deutch"
+                style="@style/DashboardButton"
+                android:text="@string/deutsch"
+                android:drawableTop="@drawable/gerflag" />
+        <Button android:id="@+id/spanish"
+                style="@style/DashboardButton"
+                android:text="@string/spanish"
+                android:drawableTop="@drawable/espflag" />
+        <Button android:id="@+id/french"
+                style="@style/DashboardButton"
+                android:text="@string/french"
+                android:drawableTop="@drawable/fraflag" />
+        <Button android:id="@+id/japanese"
+                style="@style/DashboardButton"
+                android:text="@string/japanese"
+                android:drawableTop="@drawable/japflag" />
+        <Button android:id="@+id/chinese"
+                style="@style/DashboardButton"
+                android:text="@string/chinese"
+                android:drawableTop="@drawable/chiflag" />
+
+    </com.aide.horoscope.DashboardLayout>
+
+</LinearLayout>
